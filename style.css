@@ -359,6 +359,8 @@ article .icon {
 
 #projects {
   position: relative;
+  max-height: 80vh; /* Set a maximum height for the section */
+  overflow-y: auto; /* Enable vertical scrolling if content overflows */
 }
 
 .color-container {
